@@ -8,7 +8,6 @@
         font-weight: bold;
         margin-right: 2%;
         margin-left:  2%;
-        margin-top: 27px;
       }
       a.a:hover{
         color: red;
@@ -37,10 +36,11 @@
         width: 1240px;
         height: 200px;
       }
-      p.box{
+      div.box1{
         text-align: center;
         background-color: lightgreen;
         float: left;
+        margin-top: 30px;
         margin-left: 30px;
         margin-right: 30px;
         width:250px;
@@ -50,7 +50,7 @@
         background-color: lightgrey;
         height: 304px;
       }
-      div.box{
+      div.box2{
         width: 814px;
         height: 304px;
         margin-left: auto;
@@ -66,8 +66,9 @@
   </head>
   <body>
     <div id="header">
-      <a class="a">How it works</a> <a class="a">Gifts</a> <a class="a" href="About.html" target="_self">About</a>
-      <img src="logo.png"> <a class="a">Login</a> <a class="a">Members</a> <a class="a">Contacts</a>
+      <div style="padding-top:33px"><a class="a" href="#header" target="_self">How it works</a> <a class="a" href="#header" target="_self">Gifts</a>
+        <a class="a" href="About.html" target="_self">About</a><img src="logo.png"> <a class="a" href="#header" target="_self">Login</a>
+        <a class="a" href="#header" target="_self">Members</a> <a class="a" href="#header" target="_self">Contacts</a></div>
     </div>
     <div id="main_picture">
       <img src="main.png" style="width:100%; height:464px">
@@ -78,13 +79,13 @@
       <a class="c">EASY ANSWER</a>
     </p>
     <div class="icon_box">
-      <p class="box"><img src="icon1.png" style="margin:10px"><br>asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdf</p>
-      <p class="box"><img src="icon2.png" style="margin:10px"><br>asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdf</p>
-      <p class="box"><img src="icon3.png" style="margin:10px"><br>asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdf</p>
-      <p class="box"><img src="icon4.png" style="margin:10px"><br>asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdf</p>
+      <div class="box1"><img src="icon1.png" style="margin:10px"><br>asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdf</div>
+      <div class="box1"><img src="icon2.png" style="margin:10px"><br>asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdf</div>
+      <div class="box1"><img src="icon3.png" style="margin:10px"><br>asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdf</div>
+      <div class="box1"><img src="icon4.png" style="margin:10px"><br>asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdf</div>
     </div>
     <div class="chefs">
-      <div class="box">
+      <div class="box2">
         <p class="s">
           asdfasdfasdf<br>
           asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf<br>

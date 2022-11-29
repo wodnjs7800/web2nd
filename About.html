@@ -5,6 +5,7 @@
     <title>About Page</title>
     <style>
       #top{
+        margin-top:30px;
         margin-left: auto;
         margin-right: auto;
         width: 1000px;
@@ -31,9 +32,10 @@
         position: absolute;
       }
       div.front{
+        float: left;
+        bottom: 250px;
         background-color: rgba(0,255,0,0.5);
         position: relative;
-        top: -254px;
         width: 250px;
         height: 250px;
       }
@@ -55,14 +57,14 @@
         width: 250px;
         height: 500px;
       }
-      p.box_a{
+      div.box_a{
         margin:0; padding:0;
         float: left;
         background-color: #8B6331;
         width: 250px;
         height: 250px;
       }
-      p.box_b{
+      div.box_b{
         margin:0; padding:0;
         float: left;
         background-color: darkorange;
@@ -82,33 +84,25 @@
         height: 40px;
         background-color: pink;
       }
-      a.line{
-        color: orange;
-      }
-      b.a{
+      p.a1{
+        font-weight: bold;
         font-size: 25px;
-        padding: 20px;
+        padding-left: 20px;
       }
-      b.b{
+      p.b1{
+        font-weight: bold;
         font-size: 15px;
-        padding: 20px;
-      }
-      p.a{
-        padding: 10px;
-        position: relative;
-        background-color:black;
-        weight:200px;
-        height:100px;
+        padding-left: 20px;
       }
     </style>
   </head>
   <body>
     <div id="top">
       <div class="top_left">
-        <div class"back"><img src="chef_about.png" style="width:750px"></div>
+        <div class"back"><img src="chef_about.png" style="width:750px;float: left;"></div>
         <div class="front">
-          <b class="a">GLOBAL<br></b><b class="a">BUSINESS<br><br></b>
-          <b class="b">asdfasdfasdfasdfasdf<br></b><b class="b">asdfasdf<br></b><b class="b">asdfasdfasdf<br></b><b class="b">asdfasdfasdf</b></div>
+          <p class="a1">GLOBAL<br>BUSINESS</p>
+          <p class="b1">asdfasdfasdfasdfasdf<br>asdfasdf<br>asdfasdfasdf<br>asdfasdfasdf</p></div>
       </div>
       <div class="top_right">
         <img src="right1.png"><img src="right2.png">
@@ -116,21 +110,21 @@
     </div>
     <div id="box_all">
       <div class="box_left">
-        <p class="box_a"><b class="a">TITLE<br></b><b class="b">asdfasdfasdfasdfasdfasdf<br></b><b class="b">asdfasdfasdfasdfasdf</b></p>
-        <p class="box_b"><b class="a">TITLE<br></b><b class="b">asdfasdfasdfasdfasdfasdf<br></b><b class="b">asdfasdfasdfasdfasdf</b></p>
-        <p class="box_a"><b class="b">3</b></p>
-        <p class="box_b"><b class="b">5</b></p>
-        <p class="box_a"><b class="b">6</b></p>
-        <p class="box_b"><b class="b">7</b></p>
+        <div class="box_a"><p class="a1">TITLE</p><p class="b1">asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdf</p></div>
+        <div class="box_b"><p class="a1">TITLE</p><p class="b1">asdfasdfasdfasdfasdfasdf<br>asdfasdfasdfasdfasdf</p></div>
+        <div class="box_a"><p class="b1">3</p></div>
+        <div class="box_b"><p class="b1">4</p></div>
+        <div class="box_a"><p class="b1">5</p></div>
+        <div class="box_b"><p class="b1">6</p></div>
       </div>
       <div class="box_right">
-        <b class="b">4</b>
+        <p class="b1">7</p>
       </div>
     </div>
     <div id="bottom">
       <div class="f_left">
-        <b>법적고지  <a class="line">|</a>  이메일무단수집거부  <a class="line">|</a>  이용약관  <a class="line">|</a>
-          개인정보취급방침  <a class="line">|</a>  고객센터  <a class="line">|</a>  입찰공고</b>
+        <div style="padding:10px;"><b>법적고지 <a style="color: orange">|</a> 이메일무단수집거부 <a style="color: orange">|</a> 이용약관 <a style="color: orange">|</a>
+          개인정보취급방침 <a style="color: orange">|</a> 고객센터 <a style="color: orange">|</a> 입찰공고</b></div>
       </div>
       <div class="f_right"></div>
     </div>
